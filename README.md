@@ -1,4 +1,4 @@
-# 🇩🇪 Germany Energy Time Series Analysis (R)
+# Germany Energy Time Series Analysis (R)
 
 ## Overview
 
