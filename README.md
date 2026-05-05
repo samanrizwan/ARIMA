@@ -46,17 +46,18 @@ The dataset contains daily observations with the following variables:
 
 ### 4. Forecasting Models
 
-The following models are implemented and compared:
+1. ARIMA Model
+Automatically selected optimal parameters using auto.arima()
+Generated forecasts for the next 30 days
 
-* **ARIMA (Auto-Regressive Integrated Moving Average)**
-* **ETS (Exponential Smoothing)**
-* **ARIMAX (ARIMA with exogenous variables: wind & solar)**
+2. ARIMAX Model (with external variables)
+Included Wind and Solar as exogenous variables
+Improved model realism by incorporating renewable energy influence
 
 ### 5. Model Evaluation
 
-* Forecast generation
-* Model comparison using accuracy metrics (RMSE, MAE)
-* Residual diagnostics
+* Evaluated residuals using checkresiduals()
+* Ensured model assumptions are satisfied
 
 ---
 
