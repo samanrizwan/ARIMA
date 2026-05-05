@@ -8,7 +8,7 @@ library(ggplot2) #visualization like line plot
 library(urca) #
 
 
-data <- read.csv("D:\\Rlanguage\\opsd_germany_daily.csv")
+data <- read.csv("path_to_data_file")
 
 # Convert Date column
 data$Date <- as.Date(data$Date, format = "%Y-%m-%d")
